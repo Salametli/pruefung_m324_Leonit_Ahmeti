@@ -1,0 +1,29 @@
+{
+  "name": "pruefung_m324_leonit_ahmeti",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format-check": "prettier --check .",
+    "start": "npm run format-check && npm run lint && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Salametli/pruefung_m324_Leonit_Ahmeti.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Salametli/pruefung_m324_Leonit_Ahmeti/issues"
+  },
+  "homepage": "https://github.com/Salametli/pruefung_m324_Leonit_Ahmeti#readme",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "eslint": "^9.16.0",
+    "prettier": "^3.4.2"
+  }
+}
